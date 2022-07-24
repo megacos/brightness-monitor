@@ -25,7 +25,7 @@ It was designed to be bound to keyboard shortcuts.
        
        (for users, this is my cup of tea)
        mv brightness ~/.local/bin/ ##must create the folder if it doesn't exist
-       ln -sv ~/.local/bin/brightness /usr/local/bin/brightness
+       sudo ln -sv ~/.local/bin/brightness /usr/local/bin/brightness
 5. create a shortcut with the above commands
 
 ## See also sarmad
