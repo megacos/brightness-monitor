@@ -20,9 +20,10 @@ It was designed to be bound to keyboard shortcuts.
 
 1. wget https://github.com/megacos/brightness-monitor/raw/master/brightness
 2. chmod 755 brightness
-3.       **(for system wide)**
+3.     (for system wide)
        sudo mv brightness /usr/local/bin/
-       **(for users, this is my cup of tea)**
+       
+       (for users, this is my cup of tea)
        mv brightness ~/.local/bin/ ##must create the folder if it doesn't exist
        ln -sv ~/.local/bin/brightness /usr/local/bin/brightness
 5. create a shortcut with the above commands
